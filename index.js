@@ -1,5 +1,22 @@
-const divide = (a, b) => a / b;
-const square = x => x * x;
-const add = (a, b) => a + b;
+// Function expression called divide
+function divide() {
+    return 2000 / 100;
+  }
 
-module.exports = { divide, square, add };
+  // Arrow function called square
+  const square = (x) => {
+    return x * x;
+  };
+
+  // Arrow function called add
+  const add = (a, b) => {
+    return a + b;
+  };
+
+  // Export the functions
+  module.exports = {
+    divide,
+    square,
+    add,
+  };
+  
